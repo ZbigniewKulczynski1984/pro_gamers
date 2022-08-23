@@ -130,3 +130,51 @@ body {
     color: #fff;
   }
 
+  .aboutus .aboutus-card-title {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .aboutus .aboutus-card-text {
+    font-size: 14px;
+  }
+  
+  .aboutus .aboutus-hover {
+    -webkit-transition: color .3s;
+    transition: color .3s;
+  }
+  
+  .aboutus .aboutus-hover:hover {
+    color: #039dff;
+  }
+  
+  .aboutus-hero {
+    position: relative;
+    background-image: url("../img/about-hero-small.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ddd;
+    z-index: 0;
+  }
+  
+  .aboutus-hero .aboutus-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -5;
+  }
+  
+  .aboutus-hero .aboutus-hero-item {
+    margin: 10px 0;
+  }
+  
+  .aboutus-hero .aboutus-hero-item i {
+    font-size: 36px;
+  }
+  
+  .aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+    font-size: 24px;
+  }
+
