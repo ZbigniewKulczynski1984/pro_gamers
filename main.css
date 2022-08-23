@@ -36,3 +36,31 @@ body {
   .shadow-bg {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  nav {
+    text-transform: uppercase;
+    -webkit-transition: background-color .6s;
+    transition: background-color .6s;
+    z-index: 1;
+  }
+  
+  nav a,
+  nav i {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #039dff;
+  }
+  
+  nav .fa-bars {
+    padding: 10px;
+  }
+  
+  nav .navbar-brand {
+    font-weight: bold;
+  }
+  
+  nav .active {
+    color: #039dff;
+  }
